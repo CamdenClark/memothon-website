@@ -1,6 +1,16 @@
+# Cloudflare Pages configuration
+name = "memothon-website"
+compatibility_date = "2024-02-26"
+
 [site]
 bucket = "./"
 
+[build]
+command = ""
+
+[build.upload]
+format = "directory"
+
 [pages]
 project_name = "memothon-website"
-pages_build_output_dir = "./"
+pages_build_output_dir = "."
