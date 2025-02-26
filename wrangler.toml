@@ -1,0 +1,6 @@
+[site]
+bucket = "./"
+
+[pages]
+project_name = "memothon-website"
+pages_build_output_dir = "./"
