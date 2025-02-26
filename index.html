@@ -83,18 +83,46 @@
                 <p>Memothon is a custom GPT that remembers what you learn and helps you review it at the optimal time to improve retention.</p>
             </section>
 
-            <section class="features">
-                <div class="feature">
-                    <h3>Store Knowledge</h3>
-                    <p>Save important concepts, facts, and insights as you learn them.</p>
+            <style>
+                .feature-grid {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 2rem;
+                    margin-bottom: 2rem;
+                }
+                
+                @media (max-width: 768px) {
+                    .feature-grid {
+                        grid-template-columns: 1fr;
+                    }
+                }
+                
+                .feature-card {
+                    background-color: white;
+                    padding: 2rem;
+                    border-radius: 8px;
+                    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+                }
+                
+                .feature-card h3 {
+                    color: #2c3e50;
+                    margin-top: 0;
+                    font-size: 1.5rem;
+                }
+                
+                .feature-card p {
+                    margin-bottom: 0;
+                }
+            </style>
+
+            <section class="feature-grid">
+                <div class="feature-card">
+                    <h3>Learn with Memothon</h3>
+                    <p>When you talk with Memothon, we automatically identify and store the concepts you're learning. Our system tracks your progress and understanding, creating a personalized knowledge base that grows with you.</p>
                 </div>
-                <div class="feature">
-                    <h3>Schedule Reviews</h3>
-                    <p>Automatically schedule reminders to review information at optimal intervals.</p>
-                </div>
-                <div class="feature">
-                    <h3>Learn Faster</h3>
-                    <p>Get personalized assistance from our custom GPT to understand complex topics.</p>
+                <div class="feature-card">
+                    <h3>Review Later</h3>
+                    <p>Simply ask Memothon to review concepts that are awaiting review. The system uses scientifically proven spaced repetition techniques to present information at the optimal time for memory retention and long-term learning.</p>
                 </div>
             </section>
         </main>
