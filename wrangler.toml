@@ -2,12 +2,3 @@
 name = "memothon-website"
 compatibility_date = "2024-02-26"
 pages_build_output_dir = "."
-
-[site]
-bucket = "."
-
-[build]
-command = ""
-
-[build.upload]
-format = "directory"
