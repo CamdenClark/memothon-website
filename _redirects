@@ -1,5 +1,6 @@
 # Clean URLs
-/privacy /privacy.html 200
+/privacy   /privacy.html   200
+/privacy/  /privacy.html   200
 
 # Fallback for SPAs (not needed for this site, but standard practice)
 /* /index.html 200
